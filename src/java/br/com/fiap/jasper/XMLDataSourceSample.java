@@ -1,3 +1,5 @@
+package br.com.fiap.jasper;
+
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -22,8 +24,8 @@ public class XMLDataSourceSample {
         JasperReport jasperReport = null;
         String recordPath = "/report/data/notasfiscaisservico/nota";
         String xmlFileName = "notasFiscais.xml";
-        String path = "C:\\Users\\Fernando Santiago\\Documents\\NetBeansProjects\\NotaFiscal\\src\\java\\";
-        JasperPrint jasperPrint = null;
+        String path = "C:\\Users\\Fernando Santiago\\Documents\\NetBeansProjects\\NotaFiscal\\src\\java\\br\\com\\fiap\\jasper\\";
+        JasperPrint jasperPrint;
     
         //Provide path for your JRXML template.
         String templateName = path + "NotaFiscal.jrxml";
@@ -46,6 +48,8 @@ public class XMLDataSourceSample {
 
         //Exporting it to an PDF
         JasperExportManager.exportReportToPdfFile(jasperPrint, destinationFile);
+        
+      
 
     }   
     
