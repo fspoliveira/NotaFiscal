@@ -1,3 +1,9 @@
+<%-- 
+    Document   : nfBoleto
+    Created on : 01/04/2012, 15:31:32
+    Author     : Fernando Santiago
+--%>
+
 <%@include file="valida.jsp" %>
 <html>
     <head>
@@ -6,7 +12,7 @@
     </head>
 
     <body>
-        <form action="nfBoleto.jsp" method="post">
+        <form action="notaFiscal.jsp" method="post">
         <p>Consulta de NFs</p>
         <p> 
             <input type="submit" name="Submit" value="Vizualizar NFs com Boleto">

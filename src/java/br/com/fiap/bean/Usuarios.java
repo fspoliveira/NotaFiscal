@@ -1,3 +1,13 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Fernando Santiago
+ */
+
 package br.com.fiap.bean;
 
 public class Usuarios {

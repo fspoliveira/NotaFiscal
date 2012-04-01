@@ -60,7 +60,7 @@
 			</band>
 		</title>
 		<pageHeader>
-			<band height="126"  isSplitAllowed="true" >
+			<band height="180"  isSplitAllowed="true" >
 				<textField isStretchWithOverflow="false" pattern="" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						mode="Opaque"
@@ -218,7 +218,7 @@
 			</band>
 		</pageHeader>
 		<columnHeader>
-			<band height="75"  isSplitAllowed="true" >
+			<band height="51"  isSplitAllowed="true" >
 				<staticText>
 					<reportElement
 						mode="Opaque"
@@ -244,7 +244,7 @@
 				<staticText>
 					<reportElement
 						mode="Opaque"
-						x="165"
+						x="161"
 						y="28"
 						width="82"
 						height="16"
@@ -266,8 +266,8 @@
 				<staticText>
 					<reportElement
 						mode="Opaque"
-						x="317"
-						y="30"
+						x="296"
+						y="25"
 						width="82"
 						height="16"
 						forecolor="#000000"
@@ -288,8 +288,8 @@
 				<staticText>
 					<reportElement
 						mode="Opaque"
-						x="460"
-						y="30"
+						x="463"
+						y="28"
 						width="56"
 						height="12"
 						forecolor="#000000"
@@ -332,7 +332,7 @@
 			</band>
 		</columnHeader>
 		<detail>
-			<band height="27"  isSplitAllowed="true" >
+			<band height="25"  isSplitAllowed="true" >
 				<textField isStretchWithOverflow="false" pattern="" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						mode="Opaque"
@@ -358,8 +358,8 @@
 				<textField isStretchWithOverflow="false" pattern="" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						mode="Opaque"
-						x="164"
-						y="2"
+						x="156"
+						y="4"
 						width="94"
 						height="20"
 						forecolor="#000000"
@@ -380,8 +380,8 @@
 				<textField isStretchWithOverflow="false" pattern="" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						mode="Opaque"
-						x="319"
-						y="3"
+						x="295"
+						y="5"
 						width="89"
 						height="17"
 						forecolor="#000000"
@@ -402,7 +402,7 @@
 				<textField isStretchWithOverflow="false" pattern="" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						mode="Opaque"
-						x="456"
+						x="458"
 						y="4"
 						width="67"
 						height="16"
@@ -424,19 +424,34 @@
 			</band>
 		</detail>
 		<columnFooter>
-			<band height="30"  isSplitAllowed="true" >
+			<band height="0"  isSplitAllowed="true" >
 			</band>
 		</columnFooter>
 		<pageFooter>
-			<band height="50"  isSplitAllowed="true" >
+			<band height="0"  isSplitAllowed="true" >
 			</band>
 		</pageFooter>
-		<lastPageFooter>
-			<band height="50"  isSplitAllowed="true" >
-			</band>
-		</lastPageFooter>
 		<summary>
-			<band height="50"  isSplitAllowed="true" >
+			<band height="32"  isSplitAllowed="true" >
+				<subreport  isUsingCache="true">
+					<reportElement
+						mode="Opaque"
+						x="2"
+						y="3"
+						width="484"
+						height="28"
+						forecolor="#000000"
+						backcolor="#FFFFFF"
+						key="subreport-1"
+						stretchType="NoStretch"
+						positionType="FixRelativeToTop"
+						isPrintRepeatedValues="true"
+						isRemoveLineWhenBlank="false"
+						isPrintInFirstWholeBand="false"
+						isPrintWhenDetailOverflows="false"/>
+					<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).dataSource("/report/data/boleto")]]></dataSourceExpression>
+					<subreportExpression  class="java.lang.String"><![CDATA["Boleto.jasper"]]></subreportExpression>
+				</subreport>
 			</band>
 		</summary>
 </jasperReport>

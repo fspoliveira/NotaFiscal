@@ -56,7 +56,7 @@
 			</band>
 		</background>
 		<title>
-			<band height="50"  isSplitAllowed="true" >
+			<band height="0"  isSplitAllowed="true" >
 			</band>
 		</title>
 		<pageHeader>
@@ -244,8 +244,8 @@
 				<staticText>
 					<reportElement
 						mode="Opaque"
-						x="113"
-						y="34"
+						x="165"
+						y="28"
 						width="82"
 						height="16"
 						forecolor="#000000"
@@ -266,8 +266,8 @@
 				<staticText>
 					<reportElement
 						mode="Opaque"
-						x="222"
-						y="33"
+						x="317"
+						y="30"
 						width="82"
 						height="16"
 						forecolor="#000000"
@@ -288,8 +288,8 @@
 				<staticText>
 					<reportElement
 						mode="Opaque"
-						x="343"
-						y="33"
+						x="460"
+						y="30"
 						width="56"
 						height="12"
 						forecolor="#000000"
@@ -358,8 +358,8 @@
 				<textField isStretchWithOverflow="false" pattern="" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						mode="Opaque"
-						x="129"
-						y="5"
+						x="164"
+						y="2"
 						width="94"
 						height="20"
 						forecolor="#000000"
@@ -380,8 +380,8 @@
 				<textField isStretchWithOverflow="false" pattern="" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						mode="Opaque"
-						x="230"
-						y="6"
+						x="319"
+						y="3"
 						width="89"
 						height="17"
 						forecolor="#000000"
@@ -402,8 +402,8 @@
 				<textField isStretchWithOverflow="false" pattern="" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement
 						mode="Opaque"
-						x="354"
-						y="7"
+						x="456"
+						y="4"
 						width="67"
 						height="16"
 						forecolor="#000000"
