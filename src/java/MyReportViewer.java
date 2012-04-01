@@ -8,5 +8,6 @@ public class MyReportViewer {
     JasperReport jasperReport = JasperCompileManager.compileReport("C:\\Users\\Fernando Santiago\\Documents\\NetBeansProjects\\NotaFiscal\\src\\java\\NotaFiscal.jrxml");
     JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport,new HashMap(), new JREmptyDataSource());
     JasperExportManager.exportReportToPdfFile(jasperPrint, "C:\\Users\\Fernando Santiago\\Documents\\NetBeansProjects\\NotaFiscal\\src\\java\\sample.pdf");
+    System.out.println("teste");
   }
 }
