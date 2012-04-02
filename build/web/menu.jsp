@@ -12,7 +12,7 @@
     </head>
 
     <body>
-        <form action="notaFiscal.jsp" method="post">
+        <form action="notaFiscalBoleto.jsp" method="post">
         <p>Consulta de NFs</p>
         <p> 
             <input type="submit" name="Submit" value="Vizualizar NFs com Boleto">

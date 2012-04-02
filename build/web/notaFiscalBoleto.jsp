@@ -4,7 +4,7 @@
     Author     : Fernando Santiago
 --%>
 
-<%@page import="br.com.fiap.jasper.PrintNotaFiscalBoleto"%>
+<%@page import="br.com.fiap.print.PrintNotaFiscalBoleto"%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
