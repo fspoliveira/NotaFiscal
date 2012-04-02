@@ -27,6 +27,8 @@ public class PrintNotaFiscalBoleto  {
 
         //Provide path for your final pdf file.
         String destinationFile = path + "NotaFiscalBoleto.pdf";
+        
+        
 
         //Compiling the template.
         jasperReport = JasperCompileManager.compileReport(templateName);
