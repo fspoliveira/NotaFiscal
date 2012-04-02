@@ -11,6 +11,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <p align="right" ><a href="menu.jsp">Menu Principal</a> </p> 
         <title>Nota Fiscal e Boleto</title>
     </head>
     <body>
