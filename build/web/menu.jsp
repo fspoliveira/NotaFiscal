@@ -10,11 +10,14 @@
     if (request.getMethod().equals("POST")) {
 
         String acao = request.getParameter("Submit");
-        
-        if (acao != null && acao.length() > 0) {
+        String acao1 = request.getParameter("Submit2");
+
+        if ((acao instanceof String) && (acao.length() > 0)) {
+
             response.sendRedirect("notaFiscalBoleto.jsp");
-        } else {
+        } else if ((acao1 instanceof String) && acao1.length() > 0) {
             response.sendRedirect("boleto.jsp");
+
         }
     }
 %>
